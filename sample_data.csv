@@ -1,0 +1,81 @@
+State,Year,Beneficiaries,Male_Beneficiaries,Female_Beneficiaries,Budget_Allocated,Scheme
+Uttar Pradesh,2015,68500,38000,30500,4795,PM Vishwakarma
+Uttar Pradesh,2016,73200,40800,32400,5124,PM Vishwakarma
+Uttar Pradesh,2017,78600,43700,34900,5502,PM Vishwakarma
+Uttar Pradesh,2018,82300,45800,36500,5761,PM Vishwakarma
+Uttar Pradesh,2019,87100,48500,38600,6097,PM Vishwakarma
+Uttar Pradesh,2020,71400,39800,31600,4998,PM Vishwakarma
+Uttar Pradesh,2021,91200,50700,40500,6384,PM Vishwakarma
+Uttar Pradesh,2022,98500,54800,43700,6895,PM Vishwakarma
+Rajasthan,2015,52300,28000,24300,3661,PM Vishwakarma
+Rajasthan,2016,55800,29900,25900,3906,PM Vishwakarma
+Rajasthan,2017,59400,31800,27600,4158,PM Vishwakarma
+Rajasthan,2018,63700,34100,29600,4459,PM Vishwakarma
+Rajasthan,2019,67200,36000,31200,4704,PM Vishwakarma
+Rajasthan,2020,54100,29000,25100,3787,PM Vishwakarma
+Rajasthan,2021,71800,38500,33300,5026,PM Vishwakarma
+Rajasthan,2022,78400,42000,36400,5488,PM Vishwakarma
+Madhya Pradesh,2015,47800,26000,21800,3346,PM Vishwakarma
+Madhya Pradesh,2016,50600,27500,23100,3542,PM Vishwakarma
+Madhya Pradesh,2017,54200,29500,24700,3794,PM Vishwakarma
+Madhya Pradesh,2018,57900,31500,26400,4053,PM Vishwakarma
+Madhya Pradesh,2019,61400,33400,28000,4298,PM Vishwakarma
+Madhya Pradesh,2020,49200,26700,22500,3444,PM Vishwakarma
+Madhya Pradesh,2021,65700,35700,30000,4599,PM Vishwakarma
+Madhya Pradesh,2022,72100,39200,32900,5047,PM Vishwakarma
+West Bengal,2015,43600,22500,21100,3052,PM Vishwakarma
+West Bengal,2016,46800,24100,22700,3276,PM Vishwakarma
+West Bengal,2017,49700,25600,24100,3479,PM Vishwakarma
+West Bengal,2018,52300,26900,25400,3661,PM Vishwakarma
+West Bengal,2019,55800,28700,27100,3906,PM Vishwakarma
+West Bengal,2020,44200,22800,21400,3094,PM Vishwakarma
+West Bengal,2021,59400,30600,28800,4158,PM Vishwakarma
+West Bengal,2022,65100,33500,31600,4557,PM Vishwakarma
+Maharashtra,2015,39200,20800,18400,2744,PM Vishwakarma
+Maharashtra,2016,42100,22300,19800,2947,PM Vishwakarma
+Maharashtra,2017,45300,24000,21300,3171,PM Vishwakarma
+Maharashtra,2018,48700,25800,22900,3409,PM Vishwakarma
+Maharashtra,2019,52400,27800,24600,3668,PM Vishwakarma
+Maharashtra,2020,41800,22200,19600,2926,PM Vishwakarma
+Maharashtra,2021,56200,29800,26400,3934,PM Vishwakarma
+Maharashtra,2022,61800,32700,29100,4326,PM Vishwakarma
+Tamil Nadu,2015,36400,18200,18200,2548,PM Vishwakarma
+Tamil Nadu,2016,39100,19600,19500,2737,PM Vishwakarma
+Tamil Nadu,2017,41900,21000,20900,2933,PM Vishwakarma
+Tamil Nadu,2018,44800,22500,22300,3136,PM Vishwakarma
+Tamil Nadu,2019,47600,23900,23700,3332,PM Vishwakarma
+Tamil Nadu,2020,38200,19200,19000,2674,PM Vishwakarma
+Tamil Nadu,2021,51300,25800,25500,3591,PM Vishwakarma
+Tamil Nadu,2022,57200,28800,28400,4004,PM Vishwakarma
+Gujarat,2015,31800,17200,14600,2226,PM Vishwakarma
+Gujarat,2016,34200,18500,15700,2394,PM Vishwakarma
+Gujarat,2017,36900,20000,16900,2583,PM Vishwakarma
+Gujarat,2018,39400,21300,18100,2758,PM Vishwakarma
+Gujarat,2019,42600,23100,19500,2982,PM Vishwakarma
+Gujarat,2020,35800,19400,16400,2506,PM Vishwakarma
+Gujarat,2021,46100,25000,21100,3227,PM Vishwakarma
+Gujarat,2022,51200,27800,23400,3584,PM Vishwakarma
+Bihar,2015,18900,10800,8100,1323,PM Vishwakarma
+Bihar,2016,19400,11100,8300,1358,PM Vishwakarma
+Bihar,2017,20100,11500,8600,1407,PM Vishwakarma
+Bihar,2018,19600,11200,8400,1372,PM Vishwakarma
+Bihar,2019,21200,12100,9100,1484,PM Vishwakarma
+Bihar,2020,16800,9600,7200,1176,PM Vishwakarma
+Bihar,2021,22300,12700,9600,1561,PM Vishwakarma
+Bihar,2022,23800,13600,10200,1666,PM Vishwakarma
+Manipur,2015,1800,700,1100,126,PM Vishwakarma
+Manipur,2016,2100,800,1300,147,PM Vishwakarma
+Manipur,2017,2400,900,1500,168,PM Vishwakarma
+Manipur,2018,2700,1100,1600,189,PM Vishwakarma
+Manipur,2019,3000,1200,1800,210,PM Vishwakarma
+Manipur,2020,2200,900,1300,154,PM Vishwakarma
+Manipur,2021,3400,1400,2000,238,PM Vishwakarma
+Manipur,2022,4100,1700,2400,287,PM Vishwakarma
+Sikkim,2015,380,200,180,27,PM Vishwakarma
+Sikkim,2016,420,220,200,29,PM Vishwakarma
+Sikkim,2017,460,240,220,32,PM Vishwakarma
+Sikkim,2018,490,260,230,34,PM Vishwakarma
+Sikkim,2019,520,270,250,36,PM Vishwakarma
+Sikkim,2020,390,200,190,27,PM Vishwakarma
+Sikkim,2021,590,310,280,41,PM Vishwakarma
+Sikkim,2022,720,380,340,50,PM Vishwakarma

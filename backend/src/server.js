@@ -5,10 +5,28 @@ const morgan = require('morgan');
 const connectDB = require('./config/db');
 
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5010;
 
 // ── Middleware ──────────────────────────────────────────
-app.use(cors({ origin: ['http://localhost:3000', 'http://localhost:5173'] }));
+const allowedOrigins = [
+  'http://localhost:3000',
+  'http://localhost:5173',
+  'http://localhost:3010',
+  process.env.FRONTEND_URL
+].filter(Boolean);
+
+app.use(cors({
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.indexOf(origin) !== -1 || process.env.NODE_ENV === 'development') {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
+}));
 app.use(express.json({ limit: '10mb' }));
 app.use(morgan('dev'));
 
@@ -37,6 +55,12 @@ app.use((err, req, res, next) => {
 
 // ── Start ───────────────────────────────────────────────
 async function start() {
+  if (!process.env.MONGO_URI) {
+    console.error('❌ FATAL ERROR: MONGO_URI is not defined in environment variables.');
+    console.error('   Please set MONGO_URI in your Render settings or .env file.');
+    process.exit(1);
+  }
+
   await connectDB();
 
   // Auto-seed if DB is empty

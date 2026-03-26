@@ -1,12 +1,13 @@
 import { NavLink } from 'react-router-dom'
 import {
-  LayoutDashboard, Upload, BarChart3, Lightbulb, Map, Sparkles
+  LayoutDashboard, Upload, BarChart3, Lightbulb, Map, Sparkles, Zap
 } from 'lucide-react'
 
 const navItems = [
   { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/upload', icon: Upload, label: 'Upload Data' },
   { to: '/asi', icon: BarChart3, label: 'ASI Rankings' },
+  { to: '/index', icon: Zap, label: 'Performance Index' },
   { to: '/insights', icon: Lightbulb, label: 'Insights' },
   { to: '/states', icon: Map, label: 'State Analysis' },
 ]

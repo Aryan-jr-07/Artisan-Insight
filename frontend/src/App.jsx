@@ -5,6 +5,7 @@ import Upload from './pages/Upload'
 import AsiRankings from './pages/AsiRankings'
 import Insights from './pages/Insights'
 import StateAnalysis from './pages/StateAnalysis'
+import PerformanceIndex from './pages/PerformanceIndex'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="upload" element={<Upload />} />
           <Route path="asi" element={<AsiRankings />} />
+          <Route path="index" element={<PerformanceIndex />} />
           <Route path="insights" element={<Insights />} />
           <Route path="states" element={<StateAnalysis />} />
         </Route>
